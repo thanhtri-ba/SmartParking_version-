@@ -1,0 +1,25 @@
+# Python virtual env (4+ GB, tao lai bang requirements)
+.venv/
+__pycache__/
+*.pyc
+
+# Ket qua chay / train
+runs/
+
+# Model weights (tai lai hoac luu bang Git LFS / Release neu can)
+models/*.pt
+*.onnx
+*.engine
+
+# Dataset (anh/video lon, co the co du lieu nhay cam nhu bien so)
+datasets/*
+!datasets/.gitkeep
+
+# Secrets / moi truong
+.env
+.env.*
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
